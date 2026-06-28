@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+  color: #222;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #0f4c81;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: #f9fbfe;
+  border: 1px solid #e4ebf3;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 6px;
+  font-weight: 600;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #cfd9e6;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+  background: #0f4c81;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #0b3b64;
+}
+
+.secondary-btn {
+  background: #6c757d;
+}
+
+.secondary-btn:hover {
+  background: #59636b;
+}
+
+.status-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.status-group button {
+  width
